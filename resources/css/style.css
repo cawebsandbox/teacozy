@@ -16,7 +16,7 @@ header {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid seashell;
-  /*background-color: black;*/
+  background-color: black;
   z-index: 20;
 }
 
@@ -72,4 +72,43 @@ header li {
 
 .mission-text h4 {
   margin: 10px 0;
+}
+
+.featured {
+  width: 1000px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured h2 {
+  margin: 10px 0;
+}
+
+.featured h4 {
+  margin: 10px 0;
+}
+
+.featured-teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row-1, .row-2 {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  margin: 10px 25px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
 }
