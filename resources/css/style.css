@@ -112,3 +112,38 @@ header li {
   height: 200px;
   width: 300px;
 }
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url(../images/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.address-container {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+}
+
+.address {
+  background-color: black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.address h3 {
+  margin: 10px 0;
+}
+
+.address h4 {
+  margin: 15px 0;
+}
